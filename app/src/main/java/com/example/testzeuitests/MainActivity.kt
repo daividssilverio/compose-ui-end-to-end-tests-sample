@@ -168,7 +168,7 @@ fun Login(onLogin: () -> Unit) {
 @Composable
 fun Sync() {
     Box(Modifier.fillMaxSize()) {
-        CircularProgressIndicator(modifier = Modifier.testTag("sync"))
+        Text("syncing...", modifier = Modifier.testTag("sync"))
     }
 }
 
